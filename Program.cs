@@ -13,6 +13,12 @@ public class Program
             "Host=localhost;Port=5432;Database=mini_reddit;Username=postgres;Password=password"
         ));
 
+                builder.Services.AddControllers();
+        builder.Services.AddScoped<IPostService, DefaultPostService>();
+        builder.Services.AddScoped<IPostRepository, EfPostRepository>();
+
+
+
 
       var app = builder.Build();
 

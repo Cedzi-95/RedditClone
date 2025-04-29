@@ -129,3 +129,4 @@ C:\Users\cedri\OneDrive\Desktop\.NetStudies\Mini-redditProject\obj\Debug\net9.0\
 C:\Users\cedri\OneDrive\Desktop\.NetStudies\Mini-redditProject\obj\Debug\net9.0\Mini-redditProject.pdb
 C:\Users\cedri\OneDrive\Desktop\.NetStudies\Mini-redditProject\obj\Debug\net9.0\Mini-redditProject.genruntimeconfig.cache
 C:\Users\cedri\OneDrive\Desktop\.NetStudies\Mini-redditProject\obj\Debug\net9.0\ref\Mini-redditProject.dll
+C:\Users\cedri\OneDrive\Desktop\.NetStudies\Mini-redditProject\bin\Debug\net9.0\Mini-reddit\bruno.json
