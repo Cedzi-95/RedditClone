@@ -1,0 +1,22 @@
+meta {
+  name: react
+  type: http
+  seq: 5
+}
+
+delete {
+  url: http://localhost:5029/post/delete/644a6866-cd62-4a23-b6d5-69e8e481fa6c
+  body: json
+  auth: inherit
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "title": "My First Post",
+    "content": "This is the content of my first post using Bruno client."
+  }
+}

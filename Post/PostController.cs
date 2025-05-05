@@ -100,7 +100,7 @@ public class PostController : ControllerBase
             {
                 return NotFound(new ApiError
                 {
-                    Message = "Post not not found"
+                    Message = "Post not found"
                 });
             }
 

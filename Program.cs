@@ -16,11 +16,14 @@ public class Program
                 builder.Services.AddControllers();
         builder.Services.AddScoped<IPostService, DefaultPostService>();
         builder.Services.AddScoped<IPostRepository, EfPostRepository>();
+        builder.Services.AddScoped<ICommentService, DefaultCommentService>();
+        builder.Services.AddScoped<ICommentRepository, EfCommentRepository>();
 
 
 
 
       var app = builder.Build();
+      app.MapControllers();
 
         app.Run();
     }
